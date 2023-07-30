@@ -1,0 +1,30 @@
+
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.footer1 {
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+}
+
+.logo {
+    position: absolute;
+    right: 30px;
+}
+
+.logo .year {
+    margin: 0 5px;
+    font-size: small;
+}
+.span {
+    cursor: pointer;
+}

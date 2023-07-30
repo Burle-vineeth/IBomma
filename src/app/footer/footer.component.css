@@ -1,0 +1,67 @@
+.footer {
+    color: rgba(255, 255, 255, 0.781);
+    background-color: black;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+    top: 50px;
+}
+
+.contact {
+    color: white;
+    font-size: 30px;
+    margin: 40px 0 30px 0;
+    font-weight: bold;
+    padding: 5px 0px 5px 40px;
+}
+
+.note1 {
+    width: 80%;
+    margin: auto;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.faq {
+    color: rgb(6, 236, 6);
+    font-weight: bold;
+    width: 80%;
+    padding-left: 27px;
+    margin: 10px auto;
+}
+
+.faqhead {
+    width: 80%;
+    margin: 10px auto;
+    padding-left: 27px;
+    font-weight: bold;
+}
+
+.ol {
+    width: 80%;
+    margin: auto;
+    place-content: 27px;
+}
+
+.note2 {
+    width: 80%;
+    margin: auto;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.bold1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.agree {
+    margin-left: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+}

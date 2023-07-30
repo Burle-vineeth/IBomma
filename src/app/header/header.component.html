@@ -1,0 +1,9 @@
+<div class="mainHeader">
+    <div routerLink="homepage" routerLinkActive="active" class="blocks"><mat-icon>home</mat-icon> </div>
+    <div routerLink="/movies" routerLinkActive="active" class="blocks">Movies</div>
+    <div routerLink="actors" routerLinkActive="active" class="blocks">Actors</div>
+    <div routerLink="watchlist" routerLinkActive="active" class="blocks">WatchList</div>
+    <div *ngIf="!userLogged" routerLink="login" routerLinkActive="active" class="blocks login">Login
+        <mat-icon>account_circle</mat-icon></div>
+    <div *ngIf="userLogged" class="blocks login profile" (click)="userProfileModal()" >{{  profile  }} <mat-icon>account_circle</mat-icon></div>
+</div>

@@ -1,0 +1,33 @@
+.mainHeader {
+    background-color: gray;
+    color: white;
+    height: 50px;
+    overflow: hidden;
+}
+
+.blocks {
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    border-top: none;
+    margin-top: -10px;
+}
+
+.login {
+    float: right;
+    margin-top: -10px;
+    padding-right: 30px;
+}
+.blocks:hover {
+    background-color: black;
+}
+.active {
+    background-color: whitesmoke;
+    color: red;
+}
+
+mat-icon {
+    position: relative;
+    bottom: -5px;
+    padding-top: 0px;
+}

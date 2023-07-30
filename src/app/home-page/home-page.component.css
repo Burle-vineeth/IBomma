@@ -1,0 +1,107 @@
+/* .body {
+    background-color: black;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+.body {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.headerTitle .title {
+    color: rgb(12, 236, 12);
+    font-weight: bolder;
+    font-size: 30px;
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.headerTitle .stream-title {
+    text-align: center;
+    font-size: small;
+    margin-top: -10px;
+}
+
+ngb-carousel {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.picsum-img-wrapper img{
+    width: 50%;
+    height: 280px;
+}
+
+.category1-movies .category-1 {
+    color: rgb(10, 236, 10);
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.category1-movies .category-1-movies {
+    margin: 15px 10px;
+    overflow-x: scroll;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: auto; */
+    white-space: nowrap;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.category1-movies .category-1-movies div{
+    width: 130px;
+    display: inline-block;
+    margin: 5px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.category1-movies .category-1-movies img{
+    width: 130px;
+    height: 230px;
+    cursor: pointer;
+}
+
+/* .category1-movies .category-1-movies img:hover {
+    width: 180px;
+    transition: 1s;
+    z-index: 5;
+    transition-delay: 300ms;
+} */
+
+mat-icon {
+    position: relative;
+    top: 7px;
+    font-size: larger;
+}
+
+.seeAll {
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+    font-size: medium;
+}
+
+.see {
+    margin-bottom: 10px;
+}
+
+.activeImg {
+    font-size: 50px;
+    color: red;
+}

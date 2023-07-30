@@ -1,0 +1,114 @@
+<div class="body">
+    <div class="headerTitle">
+        <div class="title">Welcome to the Movie World</div>
+        <div class="stream-title">
+            Movie World is also presenting you the best movie Straming Service platforms..
+        </div>
+    </div>
+    <div class="body-content">
+        <ngb-carousel>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/hotstar.jpeg" alt="Random first slide" />
+                    <img src="../../assets/hotstar2.webp" alt="">
+                </div>
+                <!-- <div class="carousel-caption">
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div> -->
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/aha.png" alt="Random second slide" />
+                    <img src="../../assets/aha2.jpeg" alt="">
+                </div>
+                <!-- <div class="carousel-caption">
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div> -->
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/netflix.jpeg"alt="Random third slide" />
+                    <img src="../../assets/netflix2.webp" alt="">
+                </div>
+                <!-- <div class="carousel-caption">
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div> -->
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/zee.jpeg" alt="Random second slide" />
+                    <img src="../../assets/zee2.png" alt="">
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="../../assets/prime.png" alt="Random second slide" />
+                    <img src="../../assets/prime2.webp" alt="">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="category1-movies">
+        <div class="category-1" >
+            <mat-icon>movie</mat-icon>
+            Marvel Movies 
+            <div class="see">
+                <span class="seeAll">see all</span>
+            </div>
+        </div>
+        <div class="category-1-movies">
+            <div >
+                <img src="../../assets/blackpanther1.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/blackwidow.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/strang1.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/spiderno.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/spiderfar.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/thor.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/infinitywar.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/endgame.jpeg" alt="">
+            </div>
+            <div>
+            <img src="../../assets/captainamerica.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="category1-movies">
+        <div class="category-1">
+            <mat-icon>movie</mat-icon>
+            Normal Movies 
+            <div class="see">
+                <span class="seeAll">see all</span>
+            </div>
+        </div>
+        <div class="category-1-movies">
+            <div *ngFor="let image of images;index as i">
+                <img [src]="image.imageUrl" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="footer">
+        <span routerLink="footer" [queryParams]="{'footer' : 'contact'}"> Contact </span> &nbsp; | &nbsp;
+        <span routerLink="footer" [queryParams]="{'footer' : 'DMCA'}">DMCA</span> &nbsp; | &nbsp;
+        <span routerLink="footer" [queryParams]="{'footer' : 'T&C'}">T&C</span>
+        <span class="logo"><span class="year">@2023</span><span>MovieWorld</span></span>
+    </div> -->

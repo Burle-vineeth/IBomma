@@ -1,0 +1,24 @@
+.total {
+    background-color: black;
+    position: fixed;
+    bottom: 50px;
+    top: 50px;
+    left: 0;
+    right: 0;
+ }
+.row {
+    justify-content: center;
+} 
+
+.rounded {
+    position: relative;
+}
+
+h4 , h5 {
+    display: inline;
+
+}
+.actor {
+    position: absolute;
+    left: 200px;
+}

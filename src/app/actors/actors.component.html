@@ -1,0 +1,10 @@
+<div class="total">
+    <div class="row mt-5">
+        <div class="col-5 bg-dark text-light rounded py-3 mt-3 mx-3" *ngFor="let actor of actors">
+            <h4 class="bg-dark">Actor Name : </h4><span class="actor bg-dark">{{ actor.name }}</span> <br>
+            <h5 class="bg-dark">Movie Title : </h5><span class="actor bg-dark"> {{ actor.movieTitle }}</span><br>
+            <h5 class="bg-dark">Actor credits : </h5><span class="actor bg-dark">{{ actor.credits }}</span><br>
+            <h5 class="bg-dark">Date of Birth : </h5><span class="actor bg-dark">{{ actor.born | date}}</span><br>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.submit1 {
+    text-align: center;
+    border-radius: 25px;
+    width: 100px;
+}
+.submit {
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+}
+
+.success {
+    width: 15%;
+    margin-top: 100px;
+    position: fixed;
+    left: 20px;
+}
+
+.failed {
+    width: 15%; 
+    position: fixed;
+    margin-top: 100px;
+    right: 20px
+}
+.success img ,.failed img {
+    width: 100%;
+}
+
+form {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

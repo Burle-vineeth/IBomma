@@ -1,0 +1,66 @@
+* {
+    color: white;
+}
+
+.container1 {
+    margin-top: 50px;
+    padding: 20px 0px 20px 50px;
+    background-color: black;
+}
+
+.row {
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.rounded img {
+    width: 90%;
+    cursor: pointer;
+    height: 280px;
+}
+.rounded {
+    margin: 10px;
+}
+
+.rent {
+    background-color: rgba(12, 218, 12, 0.815);
+}
+
+.free {
+    background-color: yellow;
+}
+
+h4 {
+    height: 50px;
+}
+
+.watchlist {
+    color: aqua;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.active {
+    color: red;
+}
+
+.addMovie {
+    float: right;
+    background-color: gold;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.addMovie:hover {
+    background-color: yellow;
+}
+
+.container {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}

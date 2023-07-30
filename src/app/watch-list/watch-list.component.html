@@ -1,0 +1,10 @@
+
+<div class="total">
+    <div class="row mt-5">
+        <div *ngFor="let movie of movies;index as i" class="col-md-2 col-sm-3 col-6 rounded bg-dark p-2 mt-3">
+            <img [src]="movie.imageUrl" alt="" [routerLink]='["/movie",i]'>
+            <h4 class="my-2">{{ movie.title }}</h4>
+            <!-- <span> <button class="btn mx-2 rent">Rent</button>{{ movie.cost*70 | currency:'INR':'symbol':'3.0-0'}}</span> -->
+        </div>
+    </div>
+</div>

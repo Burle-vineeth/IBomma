@@ -1,0 +1,61 @@
+.main-block {
+    margin: auto;
+    width: 50%;
+    box-shadow: 2px 2px 15px gray;
+    margin-top: 100px;
+}
+
+form input {
+    /* border: none; */
+    width: 90%;
+    margin: 14px 5%;
+    padding: 7px 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+} 
+form input.password {
+    width: 83%;
+    margin: 14px 0 14px 5%;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+form .button{
+    position: relative;
+    padding: 7px;
+    border: 2px solid gray;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    padding-right: 15px;
+}
+
+.or {
+    font-size: small;
+}
+.login {
+    width: 100px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.signUp {
+    background-color:white;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 780px) {
+    .main-block {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-block {
+        width: 90%;
+    }
+}

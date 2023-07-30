@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    color: white;
+}
+div {
+    width: 250px;
+}
+div img {
+    width: 100%;
+}
+
+.container {
+    margin-top: 70px;
+}

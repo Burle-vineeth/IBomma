@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="main-block rounded px-4 pt-5 pb-3">
+    <form autocomplete="off" #loginform="ngForm" action="" (ngSubmit)="submitLogin(loginform)">
+        <div>
+            <label for="">Enter your Mail Id/ UserName : </label> <br>
+            <input #username="ngModel" [(ngModel)]="user.username" type="text" name="username" required>
+            <p *ngIf="valid && username.invalid" class="text-danger">*This field is Required</p>
+        </div>
+        <div>
+            <label for="">Enter your password : </label> <br>
+            <input class="password" #password="ngModel" [(ngModel)]="user.password" [type]="type" name="password" required>
+            <button #open type="button" class="button" (click)="openEye()">
+                <i *ngIf="showEye" class="fa fa-eye" aria-hidden="true"></i>
+                <i *ngIf="!showEye" class="fa fa-eye-slash" aria-hidden="true"></i>
+              </button>
+            <p *ngIf="valid && password.invalid" class="text-danger">*This field is Required</p>
+        </div>
+        <div class="submit">
+            <button class="btn btn-primary login" type="submit">Login</button><br>
+            <span class="or">OR</span><br>
+            <a routerLink="/signup">Sign Up</a>
+        </div>
+    </form>
+</div>
